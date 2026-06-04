@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="page-container">
+    <div class="card-box">
+
+      <h2 id="levelTitle">Level 1</h2>
+      <p>Sisa kartu: <span id="remainingCards">8</span></p>
+
+      <div class="single-card-container">
+        <div class="card-wrapper" id="gameCard">
+          <div class="card-inner">
+            <div class="card-front">
+              <img id="frontImage">
+            </div>
+
+            <div class="card-back">
+              <img id="backImage">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button id="nextBtn" style="display:none;">Lanjut</button>
+    </div>
+  </div>
+
+  <div id="endingScreen" class="ending-screen">
+  <div id="fireworks"></div>
+  <div class="ending-content">
+
+    <h1>Thank You</h1>
+
+    <p>
+      Thank you for being willing to open every card,
+      every memory,
+      and every little story hidden inside them.
+      <br><br>
+
+      Finishing this game means more than you know.
+      <br><br>
+
+      I truly appreciate your time,
+      your patience,
+      and your willingness to stay until the very end. 🤍
+    </p>
+
+  </div>
+
+</div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

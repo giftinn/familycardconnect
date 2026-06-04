@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Family Connect Card</title>
+
+  <!-- Google Font (Optional biar lebih elegant) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="page-container">
+    <div class="card-box">
+
+      <h1 class="title">Family Connect Card</h1>
+
+      <p class="subtitle">
+        Sebuah ruang aman untuk membuka percakapan yang lebih dalam bersama keluarga.
+      </p>
+
+      <input 
+        type="text" 
+        id="username" 
+        class="input-field"
+        placeholder="Masukkan nama kamu..."
+        autocomplete="off"
+      />
+
+      <button id="loginBtn" class="primary-btn">
+        Mulai Bermain
+      </button>
+
+      <p id="errorMsg" class="error-text"></p>
+
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+
+</body>
+</html>
